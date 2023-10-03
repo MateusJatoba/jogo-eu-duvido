@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jogo do eu duvido</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Jogo do Eu Duvido</h1>
+    </header>
+
+    <main>
+
+        <div class="apresentacao">
+            Clique nos botões para gerar opçõe de Top 10 de acordo com a categoria que deseja jogar
+        </div>
+        <div class="campoGerar">
+            <input type="button" id="gerar" value="Esporte" onclick="gerouEsporte()">
+            <input type="button" id="gerar" value="Viagem" onclick="gerouViagem()">
+            <input type="button" id="gerar" value="Aleatório" onclick="gerouGerais()">
+            <input type="button" id="gerar" value="Conhecimentos gerais" onclick="gerouConhecimentos()">
+            <input type="button" id="gerar" value="Animais" onclick="gerouAnimais()">
+
+        </div>
+
+        <div id="campoTop10">
+
+        </div>
+    </main>
+
+</body>
+</html>

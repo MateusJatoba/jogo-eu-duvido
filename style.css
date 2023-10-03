@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(75, 75, 168);
+    color: aliceblue;
+
+}
+
+header{
+    text-align: center;
+    margin-top: 4vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+main{
+    margin-top: 5%;
+}
+
+.campoGerar{
+    text-align: center;
+    font-size: 10px;
+    
+}
+
+a {
+    color: #FF0000; /* Cor vermelha */
+}
+
+#gerar{
+    font-size: 20px;
+    padding: 0.5%;
+    border-radius: 20px;
+    margin: 8px;
+}
+
+#campoTop10{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 7vh;
+}
+
+.apresentacao{
+    text-align: center;
+    margin: 5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#gerar:hover{
+    cursor: pointer;
+}
